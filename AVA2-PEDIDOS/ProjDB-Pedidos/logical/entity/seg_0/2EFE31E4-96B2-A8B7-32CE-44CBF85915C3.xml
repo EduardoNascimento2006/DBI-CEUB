@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EFE31E4-96B2-A8B7-32CE-44CBF85915C3" name="Endereco">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:00:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Endc</preferredAbbreviation>
+<shortName>Endereco</shortName>
+<synonym>Endereco</synonym>
+<synonymToDisplay>Endereco</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="289F9425-E70E-2041-8BD9-0613818F1BC1">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:01:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="428920D9-F676-464C-D121-F94A0C52659F">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:01:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroCasaApartamento" id="ED81D450-B2C0-EAA4-90A7-3954E70BF2E4">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:01:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clienteId" id="C04D18A4-F1B9-2728-DB90-3382A83DF4D3">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:05:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A5148A75-BA2A-C7A9-8B65-D4AA98ED622A">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:05:58 UTC</createdTime>
+<generatorID>817E7538-8F05-E577-09DD-A3A14B058034</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<referedAttribute>24548E83-39BA-678E-62BE-204C7273DF72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F0C6334-D89B-F4F1-D07B-8BAB7D1D7828" name="Endereco PK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:01:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>289F9425-E70E-2041-8BD9-0613818F1BC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

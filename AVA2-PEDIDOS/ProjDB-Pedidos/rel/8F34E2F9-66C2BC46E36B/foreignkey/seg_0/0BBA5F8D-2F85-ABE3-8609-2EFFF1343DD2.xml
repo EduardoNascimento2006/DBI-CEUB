@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BBA5F8D-2F85-ABE3-8609-2EFFF1343DD2" containerWithKeyObject="B414C9A4-4087-B53D-9C18-C3E2DAACACB9" localFKIndex="65C7CA17-E12F-4A23-005B-1CEEE6A59E19" name="Pdd_Vdd_FK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>4975EAEE-72C5-4182-C2AB-AE38725FFC49</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referredTableLongName>Vdd</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4BEC216A-FC18-5466-F9F3-4B5ECDC965A8</referredTableID>
+<keyObject>0859B6B4-788E-CF44-94A6-E43DD821F6E0</keyObject>
+<referredKeyID>0859B6B4-788E-CF44-94A6-E43DD821F6E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

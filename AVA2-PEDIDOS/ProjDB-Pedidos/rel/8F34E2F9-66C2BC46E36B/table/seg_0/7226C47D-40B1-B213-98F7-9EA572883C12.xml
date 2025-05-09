@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7226C47D-40B1-B213-98F7-9EA572883C12" name="IPdd">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>F821C130-1F18-74A3-869C-459734B535E9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>ItensPedido</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="933ED4F1-E6B7-4C8F-15A4-79F5C256E385">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>B2A8AAE7-888B-1224-AA89-D4FCA60ECB73</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pedidoId" id="8A43A103-99FB-0282-43D3-49DB4A3E8BAB">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>F14B1F27-F73E-E2E2-9EA6-7048C973313E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnidade" id="A5F14606-BB4F-E7F3-7921-B9C0325FD015">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>0C4B3935-8242-9DBE-EE11-EBAE8A222C11</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="7E732DD8-D08B-F105-6027-52FB81DD2940">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>0DBF17C0-7A90-7052-9C48-DE05B4B0BCB5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512</dataTypeSize>
+<ownDataTypeParameters>512,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="A1A4FE35-1218-31F3-D12F-07FE252283A4">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>9C4F46F4-E786-33DA-075B-8F2A89B638E0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pdd_id" id="5F9A184F-E055-8EE2-AE32-DCC8D98DAD2F">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>D45F0817-5BBE-DC33-EFCB-52223EA4C21A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46349EF4-A459-2663-7DDC-C390BA02AE00" referredColumn="11EA99FD-EDC6-C6AB-39AB-AA044E02F4C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9E01C62-C107-C022-A2C6-81241E218065" name="IPdd_PK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>B6E05260-69B2-4A19-0B2A-BF98594582AA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="933ED4F1-E6B7-4C8F-15A4-79F5C256E385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B668BB72-9468-924B-0014-6C7A4C2D179A" name="IPdd_Pdd_FK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-09 00:07:23 UTC</createdTime>
+<generatorID>B9837E1A-188E-553B-F2DB-1AE6CC19FBAB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F9A184F-E055-8EE2-AE32-DCC8D98DAD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

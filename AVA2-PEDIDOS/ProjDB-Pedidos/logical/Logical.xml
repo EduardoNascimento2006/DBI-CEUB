@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="01F1E1E3-D658-9CF1-8FFE-535B05B92D0F" mainViewID="6E57913F-7A74-E010-5B82-65C115148C4A">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:35:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

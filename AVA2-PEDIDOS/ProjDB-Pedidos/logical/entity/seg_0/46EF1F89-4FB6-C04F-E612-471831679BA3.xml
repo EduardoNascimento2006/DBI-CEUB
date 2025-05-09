@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46EF1F89-4FB6-C04F-E612-471831679BA3" name="Vendedor">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:56:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Vdd</preferredAbbreviation>
+<shortName>Vendedor</shortName>
+<synonym>Vendedor</synonym>
+<synonymToDisplay>Vendedor</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="52379517-67E5-EF36-FC35-3427C2D8250E">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:56:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCompleto" id="A2A9A2C0-28E2-5872-3CAA-5207449C9277">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:56:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>96 CHAR</dataTypeSize>
+<ownDataTypeParameters>96 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="B0127115-0600-2479-4BCC-1A0F7E19824B">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:57:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9516F7BF-AD5D-2E76-6E0A-89CE93AF49F8" name="Vendedor PK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:56:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8F34E2F9-EE28-47DA-AF67-66C2BC46E36B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52379517-67E5-EF36-FC35-3427C2D8250E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
